@@ -1,3 +1,4 @@
+
 #carform{
     display: flex;
     flex-flow: row wrap;
@@ -26,4 +27,8 @@ button{
 .btncancel{
     padding: 10px;
     color: rgb(131, 12, 12);
+}
+option{
+    background-color: white;
+    color: grey;
 }
