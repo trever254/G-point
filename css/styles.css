@@ -1,19 +1,29 @@
-#myForm{
-  background-color: grey;
-  border:15px solid white;
-  margin: px solid rgb(15, 27, 15);
-  text-align: center;
-
+#carform{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
 }
-h1{
+
+select{
+    margin: 5px 10px 5px 0;
+    padding: 20px;
+    padding-inline-end: 10px;
+    background-color: grey;
     color: white;
-
 }
-label{
+input{
+    padding: 20px;
     background-color: white;
-    color: b;
 }
 button{
-    background-color: rgb(241, 72, 101);
+    padding: 10px;
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(248, 106, 130);
     color: white;
+}
+.btncancel{
+    padding: 10px;
+    color: rgb(131, 12, 12);
 }

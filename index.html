@@ -6,45 +6,46 @@
         <link href="css/styles.css" rel="stylesheet" type="text/css">
     </head>
        <body>
-    <div id="appoint">
-        <button onclick="myFunction()">SERVICES</button>
-        <div id="myForm">
-        <div class="form-popup" id="myForm">
-            <form class="form-container">
-              <h1>BOOK</h1>
-          
+    <div id="appointment">
+            <form action="/action_page.php" id="carform">
+        
               <label for="car make"></label>
-              <select id="car make" name="carlist" form="carform">
+              <select name="car make" id="car-make">
                   <option value="car make">Car make</option>
-                  <option value="toyota">Toyota</option>
+                  <option value="toyota">Toyota</option>>
                   <option value="bmw">BMW</option>
                   <option value="ford">Ford</option>
               </select>
                &nbsp;&nbsp;
+
               <label for="car model"></label>
-              <select id="car model" name="carlist" form="carform">
+              <select name="car model" id="car-model">
                   <option value="car model">Car model</option>
                   <option value="toyota supra">Toyota Supra</option>
                   <option value="bmw x5">BMW X5</option>
                   <option value="ford mustang">Ford Mustang</option>
               </select>
                &nbsp;&nbsp;
+    
               <label for="car year"></label>
-              <select id="car year" name="carlist" form="carform">
+              <select name="car year" id="car-year">
                   <option value="car year">Car year</option>
                   <option value="2010">2010</option>
                   <option value="2015">2015</option>
                   <option value="2019">2019</option>
               </select>
+
               &nbsp;&nbsp;
               <label for="service"></label>
               <input type="text" placeholder="Service needed" name="service" required>
               &nbsp;&nbsp;
               <button type="submit" class="btn">SUBMIT</button>
-              <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+              &nbsp;&nbsp;
+              <button type="submit" class="btncancel" onclick="closeForm()">Close</button>
             </form>
           </div>
         </div>
+    
     </div>
 
 
